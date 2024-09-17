@@ -54,8 +54,10 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     fontWeight: 'bold',
     fontSize: 16,
+    color:'black'
   },
-  description: {fontSize: 16},
+  description: {fontSize: 16,    color:'black'
+  },
   details: {
     flexDirection: 'column',
     justifyContent: 'space-between',
@@ -68,6 +70,8 @@ const styles = StyleSheet.create({
     textAlign: 'right',
     fontSize: 25,
     fontWeight: 'bold',
+    color:'black'
+
   },
 });
 export default Product;

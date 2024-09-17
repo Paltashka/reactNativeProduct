@@ -29,10 +29,14 @@ export const stylesProduct = StyleSheet.create({
     textAlign: 'center',
     fontWeight: 'bold',
     fontSize: 24,
+    color:'black'
+
   },
   description: {
     textAlign: 'center',
     fontSize: 18,
+    color:'black'
+
   },
   price: {
     fontSize: 24,
