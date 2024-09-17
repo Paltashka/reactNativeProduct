@@ -1,0 +1,13 @@
+current directory: /Users/poltashka/Desktop/AwesomeProject/vendor/bundle/ruby/2.6.0/gems/json-2.7.2/ext/json
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20240916-50145-c9tot.rb extconf.rb
+creating Makefile
+
+current directory: /Users/poltashka/Desktop/AwesomeProject/vendor/bundle/ruby/2.6.0/gems/json-2.7.2/ext/json
+make "DESTDIR=" clean
+
+current directory: /Users/poltashka/Desktop/AwesomeProject/vendor/bundle/ruby/2.6.0/gems/json-2.7.2/ext/json
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /Users/poltashka/Desktop/AwesomeProject/vendor/bundle/ruby/2.6.0/gems/json-2.7.2/ext/json
+make "DESTDIR=" install
