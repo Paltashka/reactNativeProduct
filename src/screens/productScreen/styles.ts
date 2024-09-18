@@ -60,4 +60,9 @@ export const stylesProduct = StyleSheet.create({
   ratingCount: {
     flexDirection: 'column',
   },
+  button: {
+    display: 'flex',
+    width: "100%",
+    height: 40,
+  }
 });

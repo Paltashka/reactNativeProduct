@@ -1,4 +1,4 @@
-const routes = ['Products', 'Product', 'ModalForm'] as const;
+const routes = ['Products', 'Product', 'ProductsFavorites', 'ModalForm'] as const;
 
 export type RouterType = (typeof routes)[number];
 export type RootStackParamList = {

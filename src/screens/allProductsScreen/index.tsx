@@ -12,6 +12,9 @@ const AllProductsScreen = () => {
   const handleAddProduct = () => {
     navigation.navigate('ModalForm');
   };
+  const handleFavoritesProduct = () => {
+    navigation.navigate('ProductsFavorites');
+  };
   const goToProduct = (id: string) => {
     navigation.navigate('Product', {id: id});
   };
@@ -31,7 +34,10 @@ const AllProductsScreen = () => {
           <View style={styleAllProducts.separator} />
         )}
       />
-      <Button title={'Add New Product'} onPress={handleAddProduct} />
+      <View style={styleAllProducts.buttons}>
+        <Button title={'Add New Product'} onPress={handleAddProduct} />
+        <Button title={'Go to favorites'} onPress={handleFavoritesProduct} />
+      </View>
     </View>
   );
 };

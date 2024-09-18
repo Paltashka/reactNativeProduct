@@ -6,6 +6,7 @@ import AllProductScreen from './allProductsScreen';
 import ProductScreen from './productScreen';
 import {RootStackParamList} from '../hooks/useRouter/type.ts';
 import ModalFormScreen from './modalFormScreen';
+import FavoritesProductsScreen from './favoritesProductsScreen/index.tsx';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
@@ -18,6 +19,11 @@ const Navigation = () => {
             name="Products"
             component={AllProductScreen}
             options={{title: 'List of products'}}
+          />
+          <Stack.Screen
+            name="ProductsFavorites"
+            component={FavoritesProductsScreen}
+            options={{title: 'Products Favorites'}}
           />
           <Stack.Screen name="Product" component={ProductScreen} />
         </Stack.Group>
